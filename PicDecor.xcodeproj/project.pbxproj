@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3DB38041188F951C00FCC1C5 /* VCImageEditing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38040188F951C00FCC1C5 /* VCImageEditing.m */; };
 		3DB38044188F972500FCC1C5 /* VCDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38043188F972500FCC1C5 /* VCDecorations.m */; };
+		3DB38048188FB03200FCC1C5 /* sunflower.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB38047188FB03200FCC1C5 /* sunflower.png */; };
+		3DB3804A188FB04100FCC1C5 /* lens.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB38049188FB04100FCC1C5 /* lens.png */; };
 		3DB99B091882C7330094F029 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB99B081882C7330094F029 /* UIKit.framework */; };
 		3DB99B0B1882C7330094F029 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB99B0A1882C7330094F029 /* Foundation.framework */; };
 		3DB99B0D1882C7330094F029 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB99B0C1882C7330094F029 /* CoreGraphics.framework */; };
@@ -28,6 +30,8 @@
 		3DB38040188F951C00FCC1C5 /* VCImageEditing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCImageEditing.m; sourceTree = "<group>"; };
 		3DB38042188F972500FCC1C5 /* VCDecorations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCDecorations.h; sourceTree = "<group>"; };
 		3DB38043188F972500FCC1C5 /* VCDecorations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCDecorations.m; sourceTree = "<group>"; };
+		3DB38047188FB03200FCC1C5 /* sunflower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunflower.png; sourceTree = "<group>"; };
+		3DB38049188FB04100FCC1C5 /* lens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lens.png; sourceTree = "<group>"; };
 		3DB99B051882C7330094F029 /* PicDecor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicDecor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB99B081882C7330094F029 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3DB99B0A1882C7330094F029 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DB38046188FB00600FCC1C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38049188FB04100FCC1C5 /* lens.png */,
+				3DB38047188FB03200FCC1C5 /* sunflower.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		3DB99AFC1882C7330094F029 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +104,7 @@
 		3DB99B0E1882C7330094F029 /* PicDecor */ = {
 			isa = PBXGroup;
 			children = (
+				3DB38046188FB00600FCC1C5 /* Resources */,
 				3DB99B171882C7330094F029 /* AppDelegate.h */,
 				3DB99B181882C7330094F029 /* AppDelegate.m */,
 				3DB99B201882C7330094F029 /* MainStoryboard_iPhone.storyboard */,
@@ -177,6 +191,8 @@
 				3DB99B1F1882C7330094F029 /* Default-568h@2x.png in Resources */,
 				3DB99B221882C7330094F029 /* MainStoryboard_iPhone.storyboard in Resources */,
 				3DB99B251882C7340094F029 /* MainStoryboard_iPad.storyboard in Resources */,
+				3DB38048188FB03200FCC1C5 /* sunflower.png in Resources */,
+				3DB3804A188FB04100FCC1C5 /* lens.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
