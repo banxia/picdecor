@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DB38041188F951C00FCC1C5 /* VCImageEditing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38040188F951C00FCC1C5 /* VCImageEditing.m */; };
+		3DB38044188F972500FCC1C5 /* VCDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38043188F972500FCC1C5 /* VCDecorations.m */; };
 		3DB99B091882C7330094F029 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB99B081882C7330094F029 /* UIKit.framework */; };
 		3DB99B0B1882C7330094F029 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB99B0A1882C7330094F029 /* Foundation.framework */; };
 		3DB99B0D1882C7330094F029 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB99B0C1882C7330094F029 /* CoreGraphics.framework */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DB3803F188F951C00FCC1C5 /* VCImageEditing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCImageEditing.h; sourceTree = "<group>"; };
+		3DB38040188F951C00FCC1C5 /* VCImageEditing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCImageEditing.m; sourceTree = "<group>"; };
+		3DB38042188F972500FCC1C5 /* VCDecorations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCDecorations.h; sourceTree = "<group>"; };
+		3DB38043188F972500FCC1C5 /* VCDecorations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCDecorations.m; sourceTree = "<group>"; };
 		3DB99B051882C7330094F029 /* PicDecor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicDecor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB99B081882C7330094F029 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3DB99B0A1882C7330094F029 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +98,10 @@
 				3DB99B261882C7340094F029 /* ViewController.h */,
 				3DB99B271882C7340094F029 /* ViewController.m */,
 				3DB99B0F1882C7330094F029 /* Supporting Files */,
+				3DB3803F188F951C00FCC1C5 /* VCImageEditing.h */,
+				3DB38040188F951C00FCC1C5 /* VCImageEditing.m */,
+				3DB38042188F972500FCC1C5 /* VCDecorations.h */,
+				3DB38043188F972500FCC1C5 /* VCDecorations.m */,
 			);
 			path = PicDecor;
 			sourceTree = "<group>";
@@ -180,6 +190,8 @@
 				3DB99B151882C7330094F029 /* main.m in Sources */,
 				3DB99B191882C7330094F029 /* AppDelegate.m in Sources */,
 				3DB99B281882C7340094F029 /* ViewController.m in Sources */,
+				3DB38041188F951C00FCC1C5 /* VCImageEditing.m in Sources */,
+				3DB38044188F972500FCC1C5 /* VCDecorations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +324,7 @@
 				3DB99B2D1882C7340094F029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VCImageEditing.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+
+    IBOutlet VCImageEditing *vcImageEditing;
+
+}
+
+
+-(IBAction)doCameraBtn:(id)sender;
+-(IBAction)doPhotoAlbumBtn:(id)sender;
 
 @end
